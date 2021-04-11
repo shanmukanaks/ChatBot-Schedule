@@ -1,0 +1,19 @@
+{"intents": [
+  {"tag": "greeting",
+    "patterns": ["Hi", "Hello", "Whats up", "Hey", "greetings", "Good morning", "Good evening", "Good afternoon", "Nice to meet you"],
+    "responses": ["Hello!", "Nice to meet you!", "Hello, how can I help?"]
+  },
+  {"tag": "goodbye",
+    "patterns": ["See you soon", "See you later", "Good night", "Have a Good day", "bye", "Goodbye"],
+    "responses": ["Talk to you soon, %s!", "Talk to you later, %s!", "Goodbye, %s!"]
+  },
+  {"tag": "name",
+    "patterns": ["My name is ", "I am ", "I go by ", "My full name is ", "My friends call me ", "You can call me "],
+    "responses": ["Nice to meet you, %s", "Pleasure to meet you, %s", "Good to meet you, %s"]
+  },
+  {"tag": "schedule",
+    "patterns": ["What do i have on", "Do i have plans on", "Am i busy on"],
+    "responses": ["On %s you have %s"]
+  }
+]
+}
